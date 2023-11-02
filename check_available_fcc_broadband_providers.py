@@ -14,31 +14,8 @@ To follow this protocol as close as possible this is a sample solution until the
     with the FCC and USAC.
 
 """
-from check_available_providers_supporting_functions import ATT_Provider, check_available_providers_in_area, \
-    FCC_Provider, get_matched_providers
-
-PROVIDERS_WE_WORK_WITH = {
-    'AT&T': ATT_Provider,
-    # Other providers would be added here. For instance:
-    # 'Frontier': Frontier_Provider,
-    # 'Kinetic By Windstream': KineticByWindstream_Provider,
-    # 'Spectrum': Spectrum_Provider,
-    # 'Metronet': Metronet_Provider,
-    # 'Optimum': Optimum_Provider,
-    # 'Rise Broadband': RiseBroadband_Provider,
-    # 'Ziply Fiber': ZiplyFiber_Provider,
-    # 'WOW!': WOW_Provider,
-    # 'Earthlink': Earthlink_Provider,
-    # 'Wiasat': Wiasat_Provider,
-    # 'Hughesnet': Hughesnet_Provider,
-    # 'AltaFiber': AltaFiber_Provider,
-    # 'Hawaiian Telecom': HawaiianTelecom_Provider,
-}
-PROVIDERS_NAME_MAPPING = {
-    'AT&T Internet': PROVIDERS_WE_WORK_WITH['AT&T'],
-    # Add more mappings as necessary. For instance:
-    # 'ProviderNameInBroadbandNow': 'ProviderNameInOurList',
-}
+from ACP_Sample_Project.check_available_providers_supporting_functions import get_matched_providers, FCC_Provider, \
+    check_available_providers_in_area
 
 # Check this zip code for Available Providers
 ZIP_CODE = '32825'

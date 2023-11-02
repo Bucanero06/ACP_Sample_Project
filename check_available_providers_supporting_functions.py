@@ -1,5 +1,7 @@
 import requests
+from bs4 import BeautifulSoup  # If you need to parse HTML
 from pydantic import BaseModel
+
 
 
 class FCC_Provider(BaseModel):
@@ -48,10 +50,31 @@ class ATT_Provider(FCC_Provider):
         return is_giga_fiber_available
 
 
-def check_available_providers_in_area(zip_code: str):
-    import requests
-    from bs4 import BeautifulSoup  # If you need to parse HTML
+PROVIDERS_WE_WORK_WITH = {
+    'AT&T': ATT_Provider,
+    # Other providers would be added here. For instance:
+    # 'Frontier': Frontier_Provider,
+    # 'Kinetic By Windstream': KineticByWindstream_Provider,
+    # 'Spectrum': Spectrum_Provider,
+    # 'Metronet': Metronet_Provider,
+    # 'Optimum': Optimum_Provider,
+    # 'Rise Broadband': RiseBroadband_Provider,
+    # 'Ziply Fiber': ZiplyFiber_Provider,
+    # 'WOW!': WOW_Provider,
+    # 'Earthlink': Earthlink_Provider,
+    # 'Wiasat': Wiasat_Provider,
+    # 'Hughesnet': Hughesnet_Provider,
+    # 'AltaFiber': AltaFiber_Provider,
+    # 'Hawaiian Telecom': HawaiianTelecom_Provider,
+}
+PROVIDERS_NAME_MAPPING = {
+    'AT&T Internet': PROVIDERS_WE_WORK_WITH['AT&T'],
+    # Add more mappings as necessary. For instance:
+    # 'ProviderNameInBroadbandNow': 'ProviderNameInOurList',
+}
 
+
+def check_available_providers_in_area(zip_code: str):
     base_url = "https://broadbandnow.com/api/broadband/providers"
 
     headers = {
