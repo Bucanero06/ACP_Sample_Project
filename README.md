@@ -208,12 +208,11 @@ ZIP_CODE = '32825'
 STREET_ADDRESS = '12000 Fountainbrook Blvd'
 
 '''Step 1: Find out what providers are available in your customers zip code'''
-
 providers_in_customers_area = check_available_providers_in_area(zip_code=ZIP_CODE)
 print("Providers in Customers Area:", providers_in_customers_area)
+
 '''Match the providers you work with with the providers available in the customers zip code and return as a list ordered 
 by biases'''
-
 matched_providers_list = get_matched_providers(providers_in_customers_area.keys())
 print("Matched Providers:", [provider for provider in matched_providers_list])
 
