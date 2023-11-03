@@ -1,4 +1,32 @@
 (*disclaimer: this should not be treated as a typical public repository, it is specific to the work related to MetConnect's and Carbonyl R&D communications but is here nonetheless as publicly available information for whom it may serve*)
+
+
+# Table of Contents
+1. [Providers Serviceability MVP Report](#providers-serviceability-mvp-report)\
+    * Sample MVP solution based on current MetConnect methodology (i.e. not api based)\
+    * Whats the problem?\
+    * Application Development and Maintenance Best Practices
+2. [ACP Processes Report](#acp-processes-report)\
+    * Service Provider Participation\
+    * API Access to USAC Systems\
+    * System Updates
+3. [Check Consumer Eligibility](#check-consumer-eligibility)\
+    * How It Works\
+    * National Verifier Staging Site\
+4. [Manage ACP Subscribers](#manage-acp-subscribers)\
+    * How to Use NLAD\
+    * Keep NLAD Up-to-Date\
+    * Learn More
+5. [File ACP Reimbursement Claims](#file-acp-reimbursement-claims)\
+    * ACP Claims & Reimbursement FAQ\
+    * ACP Discounts and Lifeline Discounts: Can I apply the ACP discount to a top-up for my Lifeline-supported service? Can a provider be reimbursed through the ACP for a discount applied to a top-up of a household’s Lifeline service?\
+    * How should a provider account for households that were not served for the entire month when submitting a reimbursement claim in the Affordable Connectivity Claims System?\
+    * What are the deadlines for submitting reimbursement claims in the Affordable Connectivity Claims System?
+    * How can a provider determine the correct amount to seek reimbursement for?\
+   *  What is the support amount?
+6. Plan of action acquiring access and API documentation 
+
+ 
 # Providers Serviceability MVP Report
 To follow MetConnects protocol as close as possible this is a sample solution until the nessesary 
 steps are taken to meet the FCC and USAC databases and security policies.
@@ -151,9 +179,6 @@ mentality (NLAD as an example).
 9. **Stay Compliant**: Ensure that you're always compliant with any legal or regulatory requirements, especially concerning data privacy.
 
 10. **Ongoing Communication**: Stay in regular communication with the National Verifier support team, even post-deployment, to be updated on any changes, enhancements, or potential issues.
-
-
-
 
 # ACP Processes Report
 The Affordable Connectivity Program uses the National Eligibility Verifier (National Verifier), the National Lifeline Accountability Database (NLAD), and the Lifeline Claims System (LCS) for consumer eligibility, enrollment, and service provider reimbursement. As these systems are adapted to meet the requirements of the ACP, USAC will update these pages with additional information.
