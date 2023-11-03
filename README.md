@@ -4,7 +4,8 @@ To follow MetConnects protocol as close as possible this is a sample solution un
 steps are taken to meet the FCC and USAC databases and security policies.
 
 ## Sample MVP solution based on current MetConnect methodology (i.e. not api based)
-Below is a working example with ATT as the implemented provider. 
+Below is a working example with ATT as the implemented provider. Should take the process down to under 3 seconds without
+any asynchronous or optimization techniques.
 
 //-> *BrooadbandNow* -> *MetConnect-Providers-Check* -> *Providers(website scraped)-Check* ->//
 
