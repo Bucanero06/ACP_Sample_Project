@@ -24,7 +24,7 @@
     * What are the deadlines for submitting reimbursement claims in the Affordable Connectivity Claims System?
     * How can a provider determine the correct amount to seek reimbursement for?\
    *  What is the support amount?
-6. Plan of action acquiring access and API documentation 
+6. [Plan of action acquiring access and API documentation](#plan-of-action-acquiring-access-and-api-documentation)
 
  
 # Providers Serviceability MVP Report
@@ -329,7 +329,7 @@ Providers cannot claim an ACP household for reimbursement if that household tran
 
 ACP consumers can receive reimbursement up to $30. Consumers living on Tribal lands are eligible for reimbursement for up to $75.
 
-## Plan of action acquiring access and API documentation (in case this 
+## Plan of action acquiring access and API documentation 
 To get access and API documentation to create your consumer and business-facing applications, these are the steps:
 
 1. Visit the National Verifier staging site.
