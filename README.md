@@ -127,7 +127,11 @@ mentality (NLAD as an example).
 
 [National-Verifier-Pre-Production-User-Guide.pdf](National-Verifier-Pre-Production-User-Guide.pdf)
 
+[NLAD-Pre-Production-Guide-Testing-RAD-with-Individual-User-Accounts.pdf](NLAD-Pre-Production-Guide-Testing-RAD-with-Individual-User-Accounts.pdf)
+
 [Lifeline-and-Affordable-Connectivity-Program-Interconnection-Security-Agreement.docx.pdf](Lifeline-and-Affordable-Connectivity-Program-Interconnection-Security-Agreement.docx.pdf)
+
+[Universal Service Administrative Company.pdf](..%2F..%2F..%2FDownloads%2FUniversal%20Service%20Administrative%20Company.pdf)
 1. **Backup and Redundancy**: Ensure you have a backup plan if there are delays in getting access or if there are issues with the staging environment. Always have contingency plans.
 
 2. **Feedback Loop**: After you review the API documentation and start development, it might be helpful to maintain a feedback loop with the National Verifier support team. They could provide clarifications on ambiguous parts of the documentation or specific use cases.
