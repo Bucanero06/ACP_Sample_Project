@@ -1,4 +1,4 @@
-
+(*disclaimer: this should not be treated as a typical public repository, it is specific to the work related to MetConnect's and Carbonyl R&D communications but is here nonetheless as publicly available information*)
 # Providers Serviceability MVP Report
 To follow MetConnects protocol as close as possible this is a sample solution until the nessesary 
 steps are taken to meet the FCC and USAC databases and security policies.
