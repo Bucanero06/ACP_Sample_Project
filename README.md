@@ -3,26 +3,26 @@
 
 # Table of Contents
 1. [Providers Serviceability MVP Report](#providers-serviceability-mvp-report)
-    * Sample MVP solution based on current MetConnect methodology (i.e. not api based)\
-    * Whats the problem?\
+    * Sample MVP solution based on current MetConnect methodology (i.e. not api based)
+    * Whats the problem?
     * Application Development and Maintenance Best Practices
 2. [ACP Processes Report](#acp-processes-report)
-    * Service Provider Participation\
-    * API Access to USAC Systems\
+    * Service Provider Participation
+    * API Access to USAC Systems
     * System Updates
 3. [Check Consumer Eligibility](#check-consumer-eligibility)
-    * How It Works\
-    * National Verifier Staging Site\
+    * How It Works
+    * National Verifier Staging Site
 4. [Manage ACP Subscribers](#manage-acp-subscribers)
-    * How to Use NLAD\
-    * Keep NLAD Up-to-Date\
+    * How to Use NLAD
+    * Keep NLAD Up-to-Date
     * Learn More
 5. [File ACP Reimbursement Claims](#file-acp-reimbursement-claims)
-    * ACP Claims & Reimbursement FAQ\
-    * ACP Discounts and Lifeline Discounts: Can I apply the ACP discount to a top-up for my Lifeline-supported service? Can a provider be reimbursed through the ACP for a discount applied to a top-up of a household’s Lifeline service?\
-    * How should a provider account for households that were not served for the entire month when submitting a reimbursement claim in the Affordable Connectivity Claims System?\
+    * ACP Claims & Reimbursement FAQ
+    * ACP Discounts and Lifeline Discounts: Can I apply the ACP discount to a top-up for my Lifeline-supported service? Can a provider be reimbursed through the ACP for a discount applied to a top-up of a household’s Lifeline service?
+    * How should a provider account for households that were not served for the entire month when submitting a reimbursement claim in the Affordable Connectivity Claims System?
     * What are the deadlines for submitting reimbursement claims in the Affordable Connectivity Claims System?
-    * How can a provider determine the correct amount to seek reimbursement for?\
+    * How can a provider determine the correct amount to seek reimbursement for?
    *  What is the support amount?
 6. [Plan of action acquiring access and API documentation](#plan-of-action-acquiring-access-and-api-documentation)
 
