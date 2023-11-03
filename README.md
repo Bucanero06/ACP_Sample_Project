@@ -1,9 +1,10 @@
 
-# 
-## Sample MVP solution based on current MetConnect methodology (i.e. not api based)
+# Providers Serviceability MVP Report
 To follow MetConnects protocol as close as possible this is a sample solution until the nessesary 
-steps are taken to meet the FCC and USAC databases and security policies. 
-Nonetheless this is a working example:
+steps are taken to meet the FCC and USAC databases and security policies.
+
+## Sample MVP solution based on current MetConnect methodology (i.e. not api based)
+Below is a working example with ATT as the implemented provider. 
 
 //-> *BrooadbandNow* -> *MetConnect-Providers-Check* -> *Providers(website scraped)-Check* ->//
 
