@@ -121,6 +121,35 @@ ACP processes is broken into sections to aid in our understanding as well as Met
 information are embedded in the text, deciding to follow more closely the Service Providers, NLAD 
 (National Lifeline Accountability Database) and USAC's sections of the ACP available knowledgebase.
 
+## Application Development and Maintenance Best Practices 
+i.e. Things to keep in mind which go into a project but don't tend to be discussed when creating solutions under and MVP
+mentality (NLAD as an example).
+
+[National-Verifier-Pre-Production-User-Guide.pdf](National-Verifier-Pre-Production-User-Guide.pdf)
+
+[Lifeline-and-Affordable-Connectivity-Program-Interconnection-Security-Agreement.docx.pdf](Lifeline-and-Affordable-Connectivity-Program-Interconnection-Security-Agreement.docx.pdf)
+1. **Backup and Redundancy**: Ensure you have a backup plan if there are delays in getting access or if there are issues with the staging environment. Always have contingency plans.
+
+2. **Feedback Loop**: After you review the API documentation and start development, it might be helpful to maintain a feedback loop with the National Verifier support team. They could provide clarifications on ambiguous parts of the documentation or specific use cases.
+
+3. **Security**: Ensure that the application you develop is secure, especially when dealing with personal information and API authentication. Consider regular security audits.
+
+4. **Error Handling**: Make sure your application has robust error handling, especially for the API calls. This includes not just technical errors, but also user errors (like entering incorrect data).
+
+5. **Documentation for Users**: As you develop the application, ensure you have clear documentation for the end-users. This could be in the form of FAQs, user manuals, or even video tutorials.
+
+6. **Regular Updates**: Ensure that you regularly check for updates to the National Verifier's API. APIs can change, and you'll want to ensure compatibility.
+
+7. **Stress Testing**: Before deploying, it might be a good idea to stress-test your application. This will help you identify how it performs under heavy loads or traffic.
+
+8. **Feedback Collection Post-Deployment**: After deploying your application, collect feedback from the users to understand any potential pain points or areas of improvement.
+
+9. **Stay Compliant**: Ensure that you're always compliant with any legal or regulatory requirements, especially concerning data privacy.
+
+10. **Ongoing Communication**: Stay in regular communication with the National Verifier support team, even post-deployment, to be updated on any changes, enhancements, or potential issues.
+
+
+
 
 # ACP Processes Report
 The Affordable Connectivity Program uses the National Eligibility Verifier (National Verifier), the National Lifeline Accountability Database (NLAD), and the Lifeline Claims System (LCS) for consumer eligibility, enrollment, and service provider reimbursement. As these systems are adapted to meet the requirements of the ACP, USAC will update these pages with additional information.
@@ -293,32 +322,6 @@ To get access and API documentation to create your consumer and business-facing 
 9. Stay informed about ACP developments through USAC's email bulletins and sign up to receive ACP email outreach.
 
 10. Test your application thoroughly to ensure it functions correctly and meets the necessary requirements to be deployed for consumer and business use.
-
-
-## Application Development and Maintenance Best Practices
-
-[National-Verifier-Pre-Production-User-Guide.pdf](National-Verifier-Pre-Production-User-Guide.pdf)
-
-[Lifeline-and-Affordable-Connectivity-Program-Interconnection-Security-Agreement.docx.pdf](Lifeline-and-Affordable-Connectivity-Program-Interconnection-Security-Agreement.docx.pdf)
-1. **Backup and Redundancy**: Ensure you have a backup plan if there are delays in getting access or if there are issues with the staging environment. Always have contingency plans.
-
-2. **Feedback Loop**: After you review the API documentation and start development, it might be helpful to maintain a feedback loop with the National Verifier support team. They could provide clarifications on ambiguous parts of the documentation or specific use cases.
-
-3. **Security**: Ensure that the application you develop is secure, especially when dealing with personal information and API authentication. Consider regular security audits.
-
-4. **Error Handling**: Make sure your application has robust error handling, especially for the API calls. This includes not just technical errors, but also user errors (like entering incorrect data).
-
-5. **Documentation for Users**: As you develop the application, ensure you have clear documentation for the end-users. This could be in the form of FAQs, user manuals, or even video tutorials.
-
-6. **Regular Updates**: Ensure that you regularly check for updates to the National Verifier's API. APIs can change, and you'll want to ensure compatibility.
-
-7. **Stress Testing**: Before deploying, it might be a good idea to stress-test your application. This will help you identify how it performs under heavy loads or traffic.
-
-8. **Feedback Collection Post-Deployment**: After deploying your application, collect feedback from the users to understand any potential pain points or areas of improvement.
-
-9. **Stay Compliant**: Ensure that you're always compliant with any legal or regulatory requirements, especially concerning data privacy.
-
-10. **Ongoing Communication**: Stay in regular communication with the National Verifier support team, even post-deployment, to be updated on any changes, enhancements, or potential issues.
 
 
 
