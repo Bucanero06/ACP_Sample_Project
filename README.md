@@ -126,6 +126,7 @@ profile = {'LIGHTSPEEDPending': False, 'isUverseAvailable': False, 'isGIGAFiberA
    is_uverse_available = False
    
 ```
+
 ## Whats the problem?
 The problem is that the current MetConnect methodology is not scalable, likely to to get IP-Blocked when automating
 this way, security and maintainibility are a nightmare specially as the government website transition to more 
@@ -144,10 +145,11 @@ On top of waiting for likely breaking changes to occur across all the parties in
         SBI data set was current as of June 30, 2014.  Based on the age of the data, and the underlying technology, the
         National Broadband Map and its Application Program Interface (API), will be decommissioned on December 21, 2018.
 
-Metadata updates have occured as recent as 2021 but the data is still however in the next sections an overview of the
-ACP processes is broken into sections to aid in our understanding as well as MetConnects. Useful links with further 
-information are embedded in the text, deciding to follow more closely the Service Providers, NLAD 
-(National Lifeline Accountability Database) and USAC's sections of the ACP available knowledgebase.
+Metadata updates have occurred as recently as 2021, but the data is still considered outdated for our purposes. In 
+the next sections, the ACP processes are broken into sections to aid in our understanding as well as 
+MetConnects. Useful links with further information are embedded in the text, deciding to follow more closely the 
+Service Providers, NLAD (National Lifeline Accountability Database) and USAC's sections of the ACP available 
+knowledgebase. 
 
 ## Application Development and Maintenance Best Practices 
 i.e. Things to keep in mind which go into a project but don't tend to be discussed when creating solutions under and MVP
@@ -329,8 +331,8 @@ Providers cannot claim an ACP household for reimbursement if that household tran
 
 ACP consumers can receive reimbursement up to $30. Consumers living on Tribal lands are eligible for reimbursement for up to $75.
 
-## Plan of action acquiring access and API documentation 
-To get access and API documentation to create your consumer and business-facing applications, these are the steps:
+## Acquiring access and API documentation (not an official guide) 
+To get access and API documentation to create your consumer and business-facing applications, these are the general steps (each may contain more steps):
 
 1. Visit the National Verifier staging site.
 
@@ -348,9 +350,7 @@ To get access and API documentation to create your consumer and business-facing 
 
 8. Use the API documentation to develop and test your consumer and business-facing application, ensuring that it meets the requirements and guidelines provided.
 
-9. Stay informed about ACP developments through USAC's email bulletins and sign up to receive ACP email outreach.
 
-10. Test your application thoroughly to ensure it functions correctly and meets the necessary requirements to be deployed for consumer and business use.
 
 
 
